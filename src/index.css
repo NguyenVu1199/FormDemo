@@ -61,9 +61,8 @@ code {
 .Polaris-Connected input{
   height: 50px;
 }
-.form .Polaris-Card__Section input{
-  height: 40px;
-}
+
+
 .form .Polaris-Card__Section{
       height: auto;
 }
@@ -73,12 +72,28 @@ a{
   color: #006E52;
   font-weight: normal;
 }
+@media only screen and (max-width: 450px) {
+  .Polaris-Layout{
+    width: 270px;
+  }
+  .Polaris-Card__Section{
+    margin-left: 0px;
+  }
+
+}
 @media only screen and (max-width: 740px) {
-  .form, .main, .list {
+   .main, .list {
     width: 100%;
   }
+  .Polaris-Layout{
+    align-items: center;
+  }
   .Polaris-Tabs__Wrapper{
-    margin:0;
+    display: inline;
+    margin-left: -100px;
+  }
+  .Polaris-Tabs__Wrapper ul li{
+      margin-left: -25px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -89,3 +104,4 @@ a{
     margin-left: 30%;
   }
 }
+
