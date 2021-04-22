@@ -76,6 +76,19 @@ a{
   .Polaris-Layout{
     width: 270px;
   }
+  .Polaris-Layout .Polaris-DisplayText{
+   display: none;
+  }
+  .table{
+    width: 380px;
+  }
+  .form .Polaris-Layout{
+    width: 380px;
+    margin-left: -90px;
+  }
+  .table .Polaris-Layout{
+    width: 100%;
+  }
   .Polaris-Card__Section{
     margin-left: 0px;
   }
@@ -84,6 +97,9 @@ a{
 @media only screen and (max-width: 740px) {
    .main, .list {
     width: 100%;
+  }
+  .form .Polaris-Layout{
+    margin-left: -90px;
   }
   .Polaris-Layout{
     align-items: center;
@@ -104,4 +120,3 @@ a{
     margin-left: 30%;
   }
 }
-
